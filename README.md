@@ -30,3 +30,6 @@ PORT     STATE SERVICE
 3389/tcp open  ms-wbt-server
 
 Nmap done: 256 IP addresses (2 hosts up) scanned in 2.35 seconds
+
+<img width="932" height="501" alt="image" src="https://github.com/user-attachments/assets/cb29dd8b-ea21-430f-907e-7edd76f015bf" />
+
