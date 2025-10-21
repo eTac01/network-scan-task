@@ -1,0 +1,18 @@
+# Nmap 7.94SVN scan initiated Tue Oct 21 20:40:54 2025 as: nmap -sS -oN network_scan.txt 10.174.209.112/24
+Nmap scan report for 10.174.209.4
+Host is up (0.0064s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 16:E6:93:69:4C:4C (Unknown)
+
+Nmap scan report for 10.174.209.112
+Host is up (0.0000060s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+53/tcp   open  domain
+80/tcp   open  http
+3389/tcp open  ms-wbt-server
+
+# Nmap done at Tue Oct 21 20:40:57 2025 -- 256 IP addresses (2 hosts up) scanned in 2.35 seconds
