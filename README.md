@@ -64,15 +64,24 @@ PORT     STATE SERVICE
 
 
 ##common services running on those ports
-
+``` bash
 └──╼ $sudo nmap -sS -sV -p 1-1000 10.174.209.112 -oN single_host_scan.txt
-Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-10-21 23:13 IST
-Nmap scan report for 10.174.209.112
-Host is up (0.0000080s latency).
-Not shown: 999 closed tcp ports (reset)
-PORT   STATE SERVICE VERSION
-53/tcp open  domain  dnsmasq 2.90
+```
 
+<img width="840" height="203" alt="image" src="https://github.com/user-attachments/assets/46ace838-0363-4d22-b7ad-2f7054a2bed9" />
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+###  Identify Services and Risks
+
+Look at common ports:
+
+Port	Service	Risk Example
+21	FTP	May allow anonymous access
+22	SSH	Brute-force attempts possible
+80/443	HTTP/HTTPS	Web vulnerabilities
+139/445	SMB	File sharing exploits
+3389	RDP	Remote login attacks
 
 
 
